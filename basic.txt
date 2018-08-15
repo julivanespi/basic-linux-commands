@@ -1,0 +1,16 @@
+#######################################
+	Basic commands
+#######################################
+
+// if you want to know the version of linux mind you have run:
+
+cat /etc/issue
+
+
+// Print certain system information
+
+uname
+	-a ------------- all
+	-s ------------- kernel-name
+	-o ------------- OS
+	-p ------------- processor
