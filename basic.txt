@@ -14,3 +14,13 @@ uname
 	-s ------------- kernel-name
 	-o ------------- OS
 	-p ------------- processor
+
+
+// if you want to ping scan the ertire subnet to see what all is online
+
+nmap -sP 192.168.1.*
+
+
+
+
+
