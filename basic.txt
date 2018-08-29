@@ -20,6 +20,11 @@ uname
 
 nmap -sP 192.168.1.*
 
+// if you want to shutdown your system
+
+/sbin/shutdown -h now 		<----- this will put your system to a hault (shut down and not reboot)
+/sbin/shutdown -r now		<----- this will reboot your system
+
 
 
 
