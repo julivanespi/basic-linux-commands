@@ -67,6 +67,24 @@ git init
 	Package-manager commands
 #######################################
 
+############ Debian APT ###############
+
+// if you want to use any command that deals with the packages you are interested in
+// NOTE - you will probably have to be a super user
+
+apt install       <--------- Installs packages
+apt remove        <--------- removes packages
+apt purge         <--------- removes package with configuration
+apt update        <--------- updates all upgradable packages
+apt autoremove    <--------- removes unwanted packages
+apt full-upgrade  <--------- upgrades packages with auto-handling of dependencies
+apt search        <--------- searches for the program
+apt show          <--------- shows packages details
+apt list          <--------- List packages with criteria
+apt edit-sources  <--------- Edits sources listing
+
+
+
 #######################################
 	make commands
 #######################################
