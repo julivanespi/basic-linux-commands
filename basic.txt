@@ -1,5 +1,5 @@
 #######################################
-	Basic commands
+	System-related commands
 #######################################
 
 // if you want to know the version of linux mind you have run:
@@ -15,19 +15,51 @@ uname
 	-o ------------- OS
 	-p ------------- processor
 
-
-// if you want to ping scan the ertire subnet to see what all is online
-
-nmap -sP 192.168.1.*
-
 // if you want to shutdown your system
 
 /sbin/shutdown -h now 		<----- this will put your system to a hault (shut down and not reboot)
 /sbin/shutdown -r now		<----- this will reboot your system
 
-
+#######################################
+	File-related commands
+#######################################
 
 // if you want to show the latest file that was modified or created
 
 ls -Art | tail -n 1
 
+#######################################
+	Git commands
+#######################################
+
+#######################################
+	Package-manager commands
+#######################################
+
+#######################################
+	make commands
+#######################################
+
+#######################################
+	cmake commands
+#######################################
+
+#######################################
+	Build commands
+#######################################
+
+#######################################
+	permission-related commands
+#######################################
+
+#######################################
+	device-related commands
+#######################################
+
+#######################################
+	Networking commands
+#######################################
+
+// if you want to ping scan the ertire subnet to see what all is online (nmap has to be installed)
+
+nmap -sP 192.168.1.*
