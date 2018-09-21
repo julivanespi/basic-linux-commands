@@ -112,3 +112,15 @@ apt edit-sources  <--------- Edits sources listing
 // if you want to ping scan the ertire subnet to see what all is online (nmap has to be installed)
 
 nmap -sP 192.168.1.*
+
+// if you want to ping a node/site a specific number of times
+
+ping -c 5 www.google.com
+
+// to display routing table information
+
+netstat -r
+
+// display wireless network interface information
+
+iwconfig
