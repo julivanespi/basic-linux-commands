@@ -32,6 +32,16 @@ ls -Art | tail -n 1
 	Git commands
 #######################################
 
+// if you want to see where the remote repository is fetching and pulling from (you have to be in the actual repository)
+
+git remote -v
+
+// if you want to set your git details
+
+git config --global user.name "John Doe"
+git config --global user.email "john@example.com"
+
+
 #######################################
 	Package-manager commands
 #######################################
