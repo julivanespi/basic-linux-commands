@@ -105,6 +105,11 @@ apt edit-sources  <--------- Edits sources listing
 	device-related commands
 #######################################
 
+// if you want to see a list of drives on your system
+
+lsblk
+
+
 #######################################
 	Networking commands
 #######################################
