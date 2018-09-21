@@ -1,11 +1,14 @@
 #######################################
-	System-related commands
+       System-related commands
 #######################################
 
 // if you want to know the version of linux mind you have run:
 
 cat /etc/issue
 
+// if you want to how long the system has been running and users and load averages
+
+uptime 
 
 // Print certain system information
 
@@ -21,7 +24,7 @@ uname
 /sbin/shutdown -r now		<----- this will reboot your system
 
 #######################################
-	File-related commands
+       File-related commands
 #######################################
 
 // if you want to show the latest file that was modified or created
@@ -46,7 +49,7 @@ man ls enter the manul entry for ls command, cheak for more information.
 
 
 #######################################
-	Git commands
+       Git commands
 #######################################
 
 // if you want to see where the remote repository is fetching and pulling from (you have to be in the actual repository)
@@ -64,7 +67,7 @@ cd existing-project/
 git init
 
 #######################################
-	Package-manager commands
+       Package-manager commands
 #######################################
 
 ############ Debian APT ###############
@@ -86,32 +89,48 @@ apt edit-sources  <--------- Edits sources listing
 
 
 #######################################
-	make commands
+       make commands
 #######################################
 
 #######################################
-	cmake commands
+       cmake commands
 #######################################
 
 #######################################
-	Build commands
+       Build commands
 #######################################
 
 #######################################
-	permission-related commands
+       permission-related commands
 #######################################
 
 #######################################
-	device-related commands
+       search-related commands
+#######################################
+
+#######################################
+       device-related commands
 #######################################
 
 // if you want to see a list of drives on your system
 
 lsblk
 
+// if you want to see the list of hardware units such as cpu, memory disk, usb controllers etc.
+
+lshw -short
+hwinfo --short       <------------ (install hwinfo if not already installed)
+inxi -Fx             <------------ this looks really nice
+
+// if you want to see disk space of the file systems
+
+df -H
+pydf                 <------------ (install pydf if not already installed)
+
+
 
 #######################################
-	Networking commands
+       Networking commands
 #######################################
 
 // if you want to ping scan the ertire subnet to see what all is online (nmap has to be installed)
