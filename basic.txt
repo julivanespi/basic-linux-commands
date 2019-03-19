@@ -122,6 +122,55 @@ apt edit-sources  <--------- Edits sources listing
 #######################################
 
 #######################################
+       power-management commands
+#######################################
+
+
+----------------------------------------
+             powertop
+----------------------------------------
+// if  you want to auto-tune with powertop
+
+sudo powertop -auto-tune
+
+
+----------------------------------------
+              tlp
+----------------------------------------
+// if you want to check if tlp is active
+
+sudo systemctl status tlp
+
+// if you want to start tpl
+
+sudo systemctl start tlp
+
+// if you want to see system info with tlp
+
+sudo tlp-stat -s
+
+// if you want to see a device list with tlp
+
+tlp-usblist
+
+// if you want to restart tpl
+
+sudo systemctl restart tlp
+
+// if you want to see the temp and fan speed with tlp
+
+sudo tlp-stat -t
+
+// if you want to see battery information with tlp
+
+sudo tlp-stat -b
+
+// if you want to watch the command above every 2 seconds
+
+watch sudo tlp-stat -b
+
+
+#######################################
        device-related commands
 #######################################
 
