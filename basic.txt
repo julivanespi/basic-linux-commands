@@ -99,6 +99,14 @@ apt show          <--------- shows packages details
 apt list          <--------- List packages with criteria
 apt edit-sources  <--------- Edits sources listing
 
+----------------------------------------
+       roll version of ubuntu
+----------------------------------------
+apt update 
+apt upgrade
+apt dist-upgrade
+do-release-upgrade -d
+
 
 
 #######################################
