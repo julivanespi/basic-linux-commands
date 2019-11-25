@@ -218,3 +218,9 @@ netstat -r
 // display wireless network interface information
 
 iwconfig
+
+
+// viewing and displaying networks
+# nmcli device wifi rescan
+# nmcli device wifi list
+# nmcli device wifi connect SSID-Name password wireless-password
